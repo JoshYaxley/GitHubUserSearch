@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>186b1d06-2da1-4666-824b-becc43b04f80</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>cypress\integration\examples\user-search.spec.js</StartupFile>
+    <StartupFile>cypress\integration\user-search.spec.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -32,14 +32,13 @@
     <Content Include="cypress\plugins\index.js" />
     <Content Include="cypress\support\commands.js" />
     <Content Include="cypress\support\index.js" />
-    <Content Include="cypress\integration\examples\user-search.spec.js" />
+    <Content Include="cypress\integration\user-search.spec.js" />
     <Content Include="package.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="cypress\" />
     <Folder Include="cypress\fixtures\" />
     <Folder Include="cypress\integration\" />
-    <Folder Include="cypress\integration\examples\" />
     <Folder Include="cypress\plugins\" />
     <Folder Include="cypress\support\" />
   </ItemGroup>
