@@ -1,0 +1,47 @@
+﻿<div class="jumbotron text-center shadow-sm rounded">
+    <h1 class="mb-5">Search for any GitHub user!</h1>
+    <form id="search-form">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 input-group">
+                <input id="search-box" type="text" class="form-control" placeholder="GitHub User..." aria-label="GitHub User" aria-describedby="search-button">
+                <div class="input-group-append">
+                    <input type="submit" value="Go!" class="btn btn-primary" type="button" id="search-button" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div id="error" class="d-none text-center mt-3"></div>
+
+<div id="content" class="row">
+    <div class="col-md-4 text-center">
+        <div class="pl-2 pr-2">
+            <div id="user" class="card mb-3 shadow-sm d-none">
+                <div class="row no-gutters">
+                    <div class="col-5 col-md-12 p-3">
+                        <img id="user-avatar" class="img-fluid rounded-circle shadow" src="https://avatars1.githubusercontent.com/u/16872945?v=4" />
+                    </div>
+                    <div class="col-7 col-md-12 d-flex align-items-center">
+                        <div class="card-body">
+                            <h5 id="user-name" class="card-title">Unknown</h5>
+                            <p id="user-location" class="card-text">No location set.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8 ">
+        <div id="repositories" class="pl-2 pr-2"></div>
+    </div>
+</div>
+
+<div id="repository-template" class="d-none card mb-2 shadow-sm">
+    <div class="card-body">
+        <h5 class="card-title">Wipefest</h5>
+        <p class="card-text">Wipefest uses data from Warcraft Logs to display insights and timelines for raid encounters.</p>
+        <span class="repository-language card-link">TypeScript</span>
+        <span class="repository-stars card-link">5 Stars</span>
+    </div>
+</div>

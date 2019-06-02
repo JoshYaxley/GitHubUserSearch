@@ -1,0 +1,16 @@
+{
+  "name": "git-hub-user-search.ui.tests",
+  "version": "0.0.0",
+  "description": "GitHubUserSearch.UI.Tests",
+  "main": "app.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "cypress": "^3.3.1"
+  }
+}
