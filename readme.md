@@ -16,6 +16,18 @@ npm install
 npm test
 ```
 
+The GitHub API allows 60 requests per hour. To increase this rate-limit to 5000 requests per hour, create `GitHubUserSearch.UI/secrets.config` with the following content:
+
+```
+<?xml version="1.0"?> 
+<appSettings>
+  <add key="GitHub:ClientId" value="YOUR_CLIENT_ID"/>
+  <add key="GitHub:ClientSecret" value="YOUR_CLIENT_SECRET"/>
+</appSettings>
+```
+
+The application will automatically detect this if present, and send the extra query parameters needed to increase the rate-limit.
+
 ### To-do
 
 * Logging

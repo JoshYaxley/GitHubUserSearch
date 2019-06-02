@@ -151,7 +151,6 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="webpack.common.js" />
-    <None Include="readme.md" />
     <Content Include="secrets.config" />
     <None Include="webpack.prod.js" />
     <None Include="webpack.dev.js" />
